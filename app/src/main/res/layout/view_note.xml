@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/Yourtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/YourTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/HospitalTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Yourtitle"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/YourDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HospitalTitleText"
+        android:text="@string/YourDistrict"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DistrictText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HospitalTitleText"
+        android:layout_toRightOf="@+id/YourDistrict"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/YourType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DistrictText"
+        android:text="@string/YourType"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DistrictText"
+        android:layout_toRightOf="@+id/YourType"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/YourLandline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TypeText"
+        android:text="@string/YourLandline"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LandlineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TypeText"
+        android:layout_toRightOf="@+id/YourLandline"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/YourMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LandlineText"
+        android:text="@string/YourMobile"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MobileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LandlineText"
+        android:layout_toRightOf="@+id/YourMobile"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/YourCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MobileText"
+        android:text="@string/YourCoordinates"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/CoordinatesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MobileText"
+        android:layout_toRightOf="@+id/YourCoordinates"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_below="@+id/CoordinatesText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    
+    
+
+</RelativeLayout>

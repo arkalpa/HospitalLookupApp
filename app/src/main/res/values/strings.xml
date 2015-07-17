@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Hospitals-Yellow Pages</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hospitalTitleEdit">Hospital Name</string>
+    <string name="districtEdit">District</string>
+    <string name="landlineEdit">Landline No</string>
+    <string name="mobileEdit">Moblie No</string>
+    <string name="coordinateEdit">Coordinate</string>
+    <string name="typeEdit">Type</string>
+    <string name="YourTitle">Hospital Title : </string>
+    <string name="YourDistrict">District : </string>
+    <string name="YourType">Type : </string>
+    <string name="YourLandline">Landline : </string>
+    <string name="YourMobile">Mobile : </string>
+    <string name="YourCoordinates"> Coordinates: </string>
+
+</resources>

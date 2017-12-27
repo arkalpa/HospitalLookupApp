@@ -1,7 +1,5 @@
 package com.hospitalsdatabase.management;
 
-
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.AsyncTask;
@@ -14,7 +12,8 @@ import android.view.MenuItem.OnMenuItemClickListener;
 import com.hospitalsdatabase.management.R;
 
 public class AddEditNotes extends Activity {
-
+	
+	//declared variables
 	private long rowID;
 	private EditText hospitaltitle_edit;
 	private EditText district_edit;

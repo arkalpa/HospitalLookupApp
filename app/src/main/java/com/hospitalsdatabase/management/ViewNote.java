@@ -1,5 +1,7 @@
 package com.hospitalsdatabase.management;
 
+
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -22,7 +24,6 @@ import com.hospitalsdatabase.management.R;
 
 public class ViewNote extends Activity {
 
-	// Declare Variables
 	private long rowID;
 	private TextView HospitalTitleTv;
 	private TextView DistrictTv;

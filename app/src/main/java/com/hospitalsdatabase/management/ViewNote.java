@@ -1,7 +1,5 @@
 package com.hospitalsdatabase.management;
 
-
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -23,7 +21,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.hospitalsdatabase.management.R;
 
 public class ViewNote extends Activity {
-
+	
+	//declared variables
 	private long rowID;
 	private TextView HospitalTitleTv;
 	private TextView DistrictTv;
